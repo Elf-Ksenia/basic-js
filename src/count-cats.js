@@ -14,8 +14,8 @@ const { NotImplementedError } = require('../extensions/index.js');
  * ]) => 3`
  *
  */
-function countCats(a) {
-  let yard = [].concat(...a);
+function countCats(matrix) {
+  let yard = [].concat(...matrix);
   let cats = 0;
   yard.forEach(function (box, i) {
     if (box == '^^')
@@ -26,3 +26,4 @@ function countCats(a) {
 module.exports = {
   countCats
 };
+
