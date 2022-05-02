@@ -17,11 +17,13 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 
 function repeater(str, options) {
-  let partStr = (str + options.addition + options.additionSeparator).repeat(options.additionRepeatTimes).slice(0, -options.additionSeparator.length)
-  let newStr = (partStr+options.separator).repeat(options.repeatTimes).slice(0, -options.separator.length)
+  let partStr = str + (options.addition + options.additionSeparator).repeat(options.additionRepeatTimes).slice(0, -options.additionSeparator.length);
+  let newStr = (partStr + options.separator).repeat(options.repeatTimes).slice(0, -options.separator.length);
   return newStr;
 }
 
 module.exports = {
   repeater
 };
+console.log(repeater('STRING', { repeatTimes: 3, separator: '**', 
+addition: 'PLUS', additionRepeatTimes: 3, additionSeparator: '00' }))
