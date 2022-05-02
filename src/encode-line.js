@@ -23,8 +23,3 @@ module.exports = {
   encodeLine
 };
 
-console.log(encodeLine('aabbbc'));
-
-/* uniqueArray = a.filter(function(item, pos) {
-  return a.indexOf(item) == pos;
-})*/

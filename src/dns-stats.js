@@ -18,7 +18,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * }
  *
  */
-
+/*
 const domains = [
   'code.yandex.ru',
   'music.yandex.ru',
@@ -35,3 +35,4 @@ module.exports = {
 };
 
 console.log(getDNSStats(domains))
+*/

@@ -9,10 +9,10 @@ const { NotImplementedError } = require('../extensions/index.js');
  
   @example
    */
- /* createDreamTeam(['Matt', 'Ann', 'Dmitry', 'Max']) => 'ADMM'
-  createDreamTeam(['Olivia', 1111, 'Lily', 'Oscar', true, null]) => 'LOO'
- */
- 
+/* createDreamTeam(['Matt', 'Ann', 'Dmitry', 'Max']) => 'ADMM'
+ createDreamTeam(['Olivia', 1111, 'Lily', 'Oscar', true, null]) => 'LOO'
+*/
+
 function createDreamTeam(members) {
   let letter;
   let teamName = [];
@@ -23,7 +23,6 @@ function createDreamTeam(members) {
     }
   })
   return teamName.join('');
-  console.log(teamName)
 }
 
 module.exports = {

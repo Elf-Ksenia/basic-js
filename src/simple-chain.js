@@ -4,6 +4,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * Implement chainMaker object according to task description
  * 
  */
+/*
 const chainMaker = {
   getLength() {
     Object.keys(this).length
@@ -32,3 +33,4 @@ module.exports = {
 
 
 console.log(chainMaker.addLink(1).finishChain())
+*/

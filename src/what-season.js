@@ -36,5 +36,3 @@ function getSeason(date) {
 module.exports = {
   getSeason
 };
-
-console.log(getSeason(new Date(2020, 1, 31)))
